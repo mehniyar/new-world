@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <script>
+       $(document).ready(function(){
+         $(window).scroll(function(){
+             if($(window).scrollTop() > 300){
+                 $('i').css({
+                     "opacity":"1", "pointer-events":"auto"
+                 });
+             }else{
+                $('i').css({
+                     "opacity":"0", "pointer-events":"none" 
+                }); 
+            }  
+         });
+         $('i').click(function(){
+             $('html').animate({scrollTop:0}, 500);
+         });
+    });
+
+   </script>
+    <title>Document</title>
+</head>
+<body>
+    <i class="fas fa-chevron-up"></i>
+<div class="sec1"></div>
+<h1>Tayfun MEHNİYAR</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sequi error modi atque omnis aperiam a delectus inventore, nulla nihil quaerat, quo facilis harum? Cum omnis sequi maxime quidem doloremque veritatis, autem nostrum architecto vel optio voluptatibus nobis consequatur ut, beatae pariatur assumenda eligendi. Nam nobis minus quod minima dolore aperiam facilis praesentium, consectetur asperiores ut reprehenderit, officiis sequi quas recusandae sed tempore sunt! Aspernatur omnis iste laboriosam voluptate quisquam delectus dignissimos, esse maxime earum ratione nemo voluptates non repudiandae maiores. Delectus, exercitationem consequuntur consequatur reiciendis voluptas tempore quae est ab pariatur ut. Laboriosam reprehenderit necessitatibus debitis labore nostrum dignissimos omnis similique nisi facilis sunt nemo esse saepe assumenda ea, eveniet corrupti blanditiis consectetur. Est, ea incidunt totam adipisci tempora fuga quia sapiente similique rem vitae consequatur vero architecto odio iure laborum repellat illum molestiae hic ex impedit doloremque quis itaque repudiandae? Quo asperiores in a commodi officia 
+    numquam autem.</p>
+
+    <div class="sec2"></div>
+<h1>Yazılımcı Adayı</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sequi error modi atque omnis aperiam a delectus inventore, nulla nihil quaerat, quo facilis harum? Cum omnis sequi maxime quidem doloremque veritatis, autem nostrum architecto vel optio voluptatibus nobis consequatur ut, beatae pariatur assumenda eligendi. Nam nobis minus quod minima dolore aperiam facilis praesentium, consectetur asperiores ut reprehenderit, officiis sequi quas recusandae sed tempore sunt! Aspernatur omnis iste laboriosam voluptate quisquam delectus dignissimos, esse maxime earum ratione nemo voluptates non repudiandae maiores. Delectus, exercitationem consequuntur consequatur reiciendis voluptas tempore quae est ab pariatur ut. Laboriosam reprehenderit necessitatibus debitis labore nostrum dignissimos omnis similique nisi facilis sunt nemo esse saepe assumenda ea, eveniet corrupti blanditiis consectetur. Est, ea incidunt totam adipisci tempora fuga quia sapiente similique rem vitae consequatur vero architecto odio iure laborum repellat illum molestiae hic ex impedit doloremque quis itaque repudiandae? Quo asperiores in a commodi officia 
+    numquam autem.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
